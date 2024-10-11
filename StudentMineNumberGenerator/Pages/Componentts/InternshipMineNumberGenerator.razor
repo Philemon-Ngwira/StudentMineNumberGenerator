@@ -1,0 +1,49 @@
+﻿@page "/InternshipMineNumberGenerator"
+
+<MudCard>
+    <MudGrid>
+        <MudItem xs="12">
+            <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Label="Enter ID"></MudTextField>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Label="First Name"></MudTextField>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Label="Last Name"></MudTextField>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudDatePicker Variant="Variant.Outlined" Margin="Margin.Dense" Label="Date Of Birth"></MudDatePicker>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudSelect Variant="Variant.Outlined" Margin="Margin.Dense" T="string">
+                <MudSelectItem Value="@("Male")">Male</MudSelectItem>
+                <MudSelectItem Value="@("Female")">Female</MudSelectItem>
+            </MudSelect>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudSelect Variant="Variant.Outlined" Margin="Margin.Dense" T="string">
+                <MudSelectItem Value="@("Degree")">Degree</MudSelectItem>
+                <MudSelectItem Value="@("Certificate")">Certificate</MudSelectItem>
+            </MudSelect>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudSelect Variant="Variant.Outlined" Margin="Margin.Dense" T="string">
+                <MudSelectItem Value="@("Intern")">Intern</MudSelectItem>
+                <MudSelectItem Value="@("VacationStudent")">Vac-Student</MudSelectItem>
+            </MudSelect>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudTextField Variant="Variant.Outlined" Margin="Margin.Dense" T="string" Label="Enter Cost Center"></MudTextField>
+        </MudItem>
+        <MudItem xs="12" md="6">
+            <MudSelect Variant="Variant.Outlined" Margin="Margin.Dense" T="string">
+                <MudSelectItem Value="@("Nkana")">Nkana</MudSelectItem>
+                <MudSelectItem Value="@("Mufulira")">Mufulira</MudSelectItem>
+            </MudSelect>
+        </MudItem>
+    </MudGrid>
+</MudCard>
+
+@code {
+
+}
